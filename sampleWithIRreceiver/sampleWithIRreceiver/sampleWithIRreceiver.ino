@@ -52,6 +52,8 @@ void setup() {
 	myServo.write(servoPosition);
 
 	irrecv.enableIRIn();
+
+	Serial.begin(9600);
 }
 
 void loop() {
